@@ -1,7 +1,7 @@
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int hIndex(int[] citations) {
+    public int[] countNumbers(int cnt) {
 
     }
 }
