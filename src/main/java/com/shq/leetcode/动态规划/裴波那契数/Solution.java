@@ -1,4 +1,4 @@
-package com.shq.leetcode.随手刷.裴波那契数;
+package com.shq.leetcode.动态规划.裴波那契数;
 
 public class Solution {
 

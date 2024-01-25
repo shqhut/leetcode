@@ -1,4 +1,4 @@
-package com.shq.leetcode.随手刷.零钱兑换;
+package com.shq.leetcode.动态规划.零钱兑换;
 
 public class Solution {
 
