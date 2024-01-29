@@ -1,16 +1,5 @@
 package com.shq.leetcode.经典150题.链表.环形链表;
 
-/**
- * Definition for singly-linked list.
- * class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
 public class Solution {
     public boolean hasCycle(ListNode head) {
         // 双指针，快慢指针
