@@ -2,17 +2,17 @@ package com.shq.leetcode.经典150题.链表.LRU缓存;
 
 class LRUCache {
 
-    public LRUCache(int capacity) {
-
-    }
-
-    public int get(int key) {
-
-    }
-
-    public void put(int key, int value) {
-
-    }
+//    public LRUCache(int capacity) {
+//
+//    }
+//
+//    public int get(int key) {
+//
+//    }
+//
+//    public void put(int key, int value) {
+//
+//    }
 }
 
 /**
