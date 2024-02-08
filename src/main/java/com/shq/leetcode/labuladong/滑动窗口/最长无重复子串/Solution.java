@@ -11,7 +11,7 @@ class Solution {
         Map<Character,Integer> windows = new HashMap<>();
         int res = 0;
         int left = 0, right = 0;
-        while (right < 0) {
+        while (right < s.length()) {
             // 添加到窗口中的元素
             char c = s.charAt(right);
             // 更新窗口数据
