@@ -12,7 +12,10 @@ public class Solution {
         // 输入：piles = [3,6,7,11], h = 8
         // 输出：4
         // 找到x的取值范围作为二分搜索的搜索区间
-        int left = 0, right = 1000000001;
+        // 珂珂吃香蕉的最小速度
+        int left = 1;
+        // 珂珂吃香蕉的最大速度：最大速度是piles数组的最大值，因为每小时最多吃一堆香蕉
+        int right = 1000000000;
         while (left < right) {
             int mid = left + (right-left)/2;
             if (eat(piles,mid) == h) {
@@ -38,5 +41,4 @@ public class Solution {
         }
         return res;
     }
-
 }
