@@ -28,14 +28,16 @@ public class Solution {
         return left;
     }
 
+    // 运货公式
     int take(int[] weights, int cover) {
         int res = 1;
         int temp = 0;
         for (int n:weights) {
-            temp += n;
-            if (temp > cover) {
+            if (temp+n <= cover) {
+                temp+=n;
+            } else {
                 res++;
-                temp=0;
+                temp=n;
             }
         }
         return res;
