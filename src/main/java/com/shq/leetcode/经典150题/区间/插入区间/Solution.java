@@ -15,6 +15,7 @@ public class Solution {
         // 只需要找到跟新区间相交的区间，将相交的区间合并成一个大区间
         // 大区间及其他区间组成结果
         for (int i = 0; i < intervals.length; i++) {
+            // 判断
             int[] cur = intervals[i];
             if (newInterval[0] <= cur[0] ) {
 
